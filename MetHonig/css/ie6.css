@@ -1,0 +1,79 @@
+.main-content .block .top{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-block-t.png', sizingmethod='crop');
+}
+.sidebar .block .top{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-sblock-t.png', sizingmethod='crop');
+}
+.main-content .block .holder{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-block-s.png', sizingmethod='scale');
+}
+.sidebar .block .holder{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-sblock-s.png', sizingmethod='scale');
+}
+.main-content .block .bottom{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-block-b.png', sizingmethod='crop');
+}
+.main-content .pink .bottom{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-mblock-b.png', sizingmethod='crop');
+}
+.sidebar .block .bottom{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-sblock-b.png', sizingmethod='crop');
+}
+a.btn span{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-btn-l.png', sizingmethod='crop');
+}
+a.btn .rs{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-btn-r.png', sizingmethod='crop');
+}
+.banners li{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-banner.png', sizingmethod='crop');
+}
+.categorie ul li a .opener{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/categorie-opener.png', sizingmethod='crop');
+}
+.tabs .tabs-bg{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-t.png', sizingmethod='crop');
+}
+.tabs .tabset li.second span{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-t-m.png', sizingmethod='crop');
+}
+.tabs .tabset li.first span{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-t-first.png', sizingmethod='crop');
+}
+.tabs .tabset li.last span{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-t-last.png', sizingmethod='crop');
+}
+.tabs .tab-content{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-s.png', sizingmethod='scale');
+}
+.tabs .tab-bottom{
+	background:none;
+	filter: progid:dximagetransform.microsoft.alphaimageloader(src='images/bg-tab-b.png', sizingmethod='crop');
+}
+img, .png{
+	position:relative;
+	behavior: expression((this.runtimeStyle.behavior="none")&&(this.pngSet?this.pngSet=true:(this.nodeName == "IMG" &&
+	this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage = "none",
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.src + "', sizingMethod='image')",
+	this.src = "images/none.gif"):(this.origBg = this.origBg? this.origBg
+	:this.currentStyle.backgroundImage.toString().replace('url("','').replace('")',''),
+	this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" + this.origBg + "', sizingMethod='crop')",
+	this.runtimeStyle.backgroundImage = "none")),this.pngSet=true)
+	);
+}

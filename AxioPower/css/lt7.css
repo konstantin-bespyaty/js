@@ -1,0 +1,10 @@
+
+body{width:expression(document.documentElement.clientWidth < 1000 ? "1000px" : "auto");}
+.footer-holder ul li{
+	padding-left: expression( (this===this.parentNode.childNodes[0]) ? "0px" : "auto"); 
+	background-image:expression( (this===this.parentNode.childNodes[0]) ? "none" : "auto");
+}
+.nav li ul li{
+	background-image: expression( (this===this.parentNode.childNodes[0]) ? "none" : "auto");
+	padding-left:  expression( (this===this.parentNode.childNodes[0]) ? "0" : "19px");
+}
